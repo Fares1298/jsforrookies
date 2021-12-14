@@ -7,10 +7,9 @@
 }
 .wrapper{
   height: 100%;
-  width: 300px;
+  width: 30%;
   position: relative;
-
-  
+  float: left;
 }
 .wrapper .menu-btn{
   position: fixed;
@@ -53,9 +52,8 @@
   position: fixed;
   background: #404040;
   height: 100%;
-  width: 270px;
+  width: 273px;
   overflow: hidden;
-  left: ;
   transition: all 0.3s ease;
 }
 #btn:checked ~ #sidebar{
@@ -78,11 +76,12 @@
   list-style: none;
 }
 #sidebar .list-items li{
-  padding-left: 40px;
+  padding-left: 10px;
   line-height: 50px;
   border-top: 1px solid rgba(255,255,255,0.1);
   border-bottom: 1px solid #333;
   transition: all 0.3s ease;
+  text-align: left;
 }
 #sidebar .list-items li:hover{
   border-top: 1px solid transparent;
@@ -102,7 +101,7 @@
   display: block;
 }
 #sidebar .list-items li a i{
-  margin-right: 20px;
+  margin-right: 5px;
 }
 #sidebar .list-items .icons{
   width: 100%;
@@ -151,3 +150,17 @@
   font-size: 40px;
   font-weight: 700;
 }
+
+.main-frame {
+  width: 70%; 
+  margin-left: 20%;
+  padding: 3rem;
+}
+
+.main-frame .main-content {
+  position: absolute;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
